@@ -18,7 +18,7 @@ while (1):
          break
        else:
          if(UDPSock.sendto(data,addr)):
-           print "Sending message  '",data,"'....."
+           print "Sending message.... '", data
 
 
 #close socket
